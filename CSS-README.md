@@ -23,3 +23,12 @@ body{
     background-size: cover;//to fix the image in website
 }
 -----------
+=>To create box and align some position
+ .box{
+    text-align: center;//text in center
+    border: solid;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    float:left;// set the box at left corner of page
+}
