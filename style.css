@@ -4,14 +4,25 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
+    }
 h1{
-    background: linear-gradient(to right,rgb(216, 33, 33) ,rgb(19, 199, 19));
+    background: linear-gradient(to right,rgb(86, 86, 243) ,rgb(252, 90, 117));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-align: center;
+    margin: auto;
 }
 p{
-    background: linear-gradient(to left,rgb(216, 33, 33) ,rgb(19, 199, 19));
+    background: linear-gradient(to right,rgb(255, 103, 128) ,rgb(103, 103, 224));
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    padding: 10px;
+}
+.box{
+    text-align: center;
+    border: solid;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    float:left;
 }
