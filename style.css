@@ -46,3 +46,16 @@ p{
     top: 50px;
     left: 50px;
 }
+a:link{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+
+button{
+    background-color: blue;
+}
+button:hover{
+    color: red;
+}
