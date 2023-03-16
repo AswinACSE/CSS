@@ -26,3 +26,22 @@ p{
     background-color: white;
     float: left;
 }
+#box1{
+    border: solid;
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+
+    position: sticky;
+}
+#box4{
+    border: solid;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+
+    top: 80px;
+    left: 80px;
+}
