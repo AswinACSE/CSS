@@ -32,3 +32,28 @@ body{
     background-color: white;
     float:left;// set the box at left corner of page
 }
+-----------
+=>To link a website and color change when we place the cursor
+a:link{
+    color: green;//link color
+}
+a:hover{
+    color: yellow;//when place the cursor on link color change
+}
+-----------
+=>Create a button and color change
+button{
+    background-color: blue;//background color of the button
+}
+button:hover{
+    color: red;//to change color when place the cursor on link
+}
+-----------
+=>To set shadow of a text
+h1{
+    text-shadow: 0px 0px 5px color,0px 0px etc...
+}
+h1{
+    box-shadow: 5px 5px 5px color;//to make a box of text
+}
+
