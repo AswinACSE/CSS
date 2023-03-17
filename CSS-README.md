@@ -56,4 +56,14 @@ h1{
 h1{
     box-shadow: 5px 5px 5px color;//to make a box of text
 }
-
+-----------
+=>To set icons logo like google or youtube
+.icon{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    
+    transform: translate(500px,10px);
+    top: 10px;
+} // for above code we have to link logo we have to create a class and give some address E.g: class="fa-brands fa-youtube" -->youtube logo.
+-----------
