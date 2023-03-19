@@ -41,8 +41,7 @@ body{
              }
         </style>
 ----------
-=>To set the font family of an Element:
-     -> It can set which font in element should use by  using the font family property.
+=>To set the font family of an Element
    <style>
        p{      
            font-size:16px;
@@ -94,3 +93,25 @@ h1{
     top: 10px;
 } // for above code we have to link logo we have to create a class and give some address E.g: class="fa-brands fa-youtube" -->youtube logo.
 -----------
+=> Inherit Styles from the Body Element
+ <style>
+      body{
+         background-colour: black;
+         colour: green;
+         font-family: monospace;
+          }
+ </style>
+ <h1>Hello World</h1>
+----------
+=>Prioritize one style over another
+<style>
+    body{
+         background-colour: black;
+         colour: green;
+         font-family: monospace;
+          }
+    .pink-text{
+         colour: pink;
+           }
+</style>
+<h1 class="pink-text">Hello World</h1>
