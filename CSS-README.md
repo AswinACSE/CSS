@@ -41,7 +41,15 @@ body{
              }
         </style>
 ----------
-
+=>To set the font family of an Element:
+     -> It can set which font in element should use by  using the font family property.
+   <style>
+       p{      
+           font-size:16px;
+           font-family: monospace;
+         }
+    </style>
+----------
 =>To create box and align some position
  .box{
     text-align: center;//text in center
