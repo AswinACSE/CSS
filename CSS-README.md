@@ -1,3 +1,8 @@
+CSS - Cascading Style Sheets :
+        => CSS is something which is used to style websites or style HTML.
+        => Cascading means anything that you apply to an upper element goes down to any lower elements or any elements that are inside other elements.
+        => So anything that you apply to the body element will cascade or get be inherited to all the  other elements on the page.
+        
 CSS styling:
 =>To make background-color
 
@@ -23,6 +28,20 @@ body{
     background-size: cover;//to fix the image in website
 }
 -----------
+=>Tp change the Font Size of an Element:
+       <style> //creating style class
+        .red-text{
+                color:red;
+                font-size: 30px;// Changes the font size
+                   }
+        </style>
+        <style>
+          p{  
+              font-size:16px;
+             }
+        </style>
+----------
+
 =>To create box and align some position
  .box{
     text-align: center;//text in center
