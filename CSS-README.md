@@ -131,3 +131,23 @@ h1{
                }
   </style>
   <h1 class="pink-text blue-text">Hello World</h1>
+-----------
+=>Override Class Declarations by Styling ID Attributes
+  <style>
+       body{
+          background-colour: black;
+          colour: green;
+          font-family: monospace;
+            }
+       #orange-text{
+          colour: orange;
+             }
+       .pink-text{
+          colour: pink;
+              }
+       .blue-text{
+           colour: blue;
+                }
+   </style>
+   <h1 id="orange-text" class="pink-text blue-text">Hello World</h1>
+   ----------
