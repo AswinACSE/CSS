@@ -115,3 +115,19 @@ h1{
            }
 </style>
 <h1 class="pink-text">Hello World</h1>
+----------
+=>Override Styles in Subsequent CSS
+  <style>
+     body{
+         background-colour: black;
+         colour: green;
+         font-family: monospace;
+           }
+     .pink-text{
+         colour: pink;
+             }
+     .blue-text{
+          colour: blue;
+               }
+  </style>
+  <h1 class="pink-text blue-text">Hello World</h1>
